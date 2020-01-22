@@ -1,0 +1,27 @@
+{
+  "name": "lead-scoring",
+  "description": "Lead scoring app",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Alec Ellebracht",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.3",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
+  }
+}
